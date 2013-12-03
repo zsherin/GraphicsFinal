@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{2DA46D5D-AF68-4E44-BE5F-2D1D94DE1AE9}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/include;C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/sutil;C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/include/optixu;C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v5.5/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/include;C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/sutil;C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/include/optixu;C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v5.5/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/include;C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/sutil;C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/include/optixu;C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v5.5/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/include;C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/sutil;C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/include/optixu;C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v5.5/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HC:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK" "-BC:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2" --check-stamp-file "C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\builder2\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/CMakeLists.txt;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\CMakeLists.txt;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\builder2\CMakeFiles\2.8.12.1\CMakeSystem.cmake;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\builder2\CMakeFiles\2.8.12.1\CMakeCCompiler.cmake;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\builder2\CMakeFiles\2.8.12.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\builder2\CMakeFiles\2.8.12.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\CMake\Macros.cmake;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\CMake\CompilerInfo.cmake;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\CMake\ConfigCompilerFlags.cmake;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\CMake\sse_support.h.in;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\CMake\FindCUDA.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\CMake\FindOptiX.cmake;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sampleConfig.h.in;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\CMake\FindSUtilGLUT.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\builder2\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HC:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK" "-BC:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2" --check-stamp-file "C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\builder2\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/CMakeLists.txt;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\CMakeLists.txt;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\builder2\CMakeFiles\2.8.12.1\CMakeSystem.cmake;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\builder2\CMakeFiles\2.8.12.1\CMakeCCompiler.cmake;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\builder2\CMakeFiles\2.8.12.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\builder2\CMakeFiles\2.8.12.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\CMake\Macros.cmake;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\CMake\CompilerInfo.cmake;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\CMake\ConfigCompilerFlags.cmake;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\CMake\sse_support.h.in;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\CMake\FindCUDA.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\CMake\FindOptiX.cmake;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sampleConfig.h.in;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\CMake\FindSUtilGLUT.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\builder2\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HC:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK" "-BC:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2" --check-stamp-file "C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\builder2\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/CMakeLists.txt;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\CMakeLists.txt;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\builder2\CMakeFiles\2.8.12.1\CMakeSystem.cmake;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\builder2\CMakeFiles\2.8.12.1\CMakeCCompiler.cmake;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\builder2\CMakeFiles\2.8.12.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\builder2\CMakeFiles\2.8.12.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\CMake\Macros.cmake;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\CMake\CompilerInfo.cmake;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\CMake\ConfigCompilerFlags.cmake;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\CMake\sse_support.h.in;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\CMake\FindCUDA.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\CMake\FindOptiX.cmake;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sampleConfig.h.in;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\CMake\FindSUtilGLUT.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\builder2\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HC:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK" "-BC:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2" --check-stamp-file "C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\builder2\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/CMakeLists.txt;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\CMakeLists.txt;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\builder2\CMakeFiles\2.8.12.1\CMakeSystem.cmake;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\builder2\CMakeFiles\2.8.12.1\CMakeCCompiler.cmake;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\builder2\CMakeFiles\2.8.12.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\builder2\CMakeFiles\2.8.12.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\CMake\Macros.cmake;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\CMake\CompilerInfo.cmake;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\CMake\ConfigCompilerFlags.cmake;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\CMake\sse_support.h.in;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\CMake\FindCUDA.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\CMake\FindOptiX.cmake;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sampleConfig.h.in;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\CMake\FindSUtilGLUT.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\builder2\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\e525e5343ca19a4bd81d5fd5c22d5fa4\ALL_BUILD.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/CMakeFiles/e525e5343ca19a4bd81d5fd5c22d5fa4/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\builder2\CMakeFiles\ALL_BUILD</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/CMakeFiles/e525e5343ca19a4bd81d5fd5c22d5fa4/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\builder2\CMakeFiles\ALL_BUILD</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/CMakeFiles/e525e5343ca19a4bd81d5fd5c22d5fa4/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\builder2\CMakeFiles\ALL_BUILD</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/CMakeFiles/e525e5343ca19a4bd81d5fd5c22d5fa4/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\builder2\CMakeFiles\ALL_BUILD</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CMakeFiles\ALL_BUILD" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/collision/collision.vcxproj">
+      <Project>EA01FC7B-8482-4B0B-AF86-5D8DDE2CC69B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/cook/cook.vcxproj">
+      <Project>55CC9D1B-1D53-4E51-BF30-22F4D71FDDD7</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/displacement/displacement.vcxproj">
+      <Project>8AFA7095-8C98-4B65-B6E3-38D9CB258E10</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/exceptions/exceptions.vcxproj">
+      <Project>47466847-BCC5-4198-BD45-D13D04B42217</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/glass/glass.vcxproj">
+      <Project>FB3DAE7C-5269-4574-AC5C-43DEA948CBFB</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/heightfield/heightfield.vcxproj">
+      <Project>09621C0D-B18D-416A-8FC6-80665A09688F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/julia/julia.vcxproj">
+      <Project>ADC0DF27-8EEF-494D-A6CA-AAC557EFD285</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/mantascene/mantascene.vcxproj">
+      <Project>6848434F-EFEA-4EE1-8326-A9E7F9E9ADA1</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/materials/materials.vcxproj">
+      <Project>B1F495BC-960A-4822-A4DA-EB966D4A5433</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/mcmc_sampler/mcmc_sampler.vcxproj">
+      <Project>EF177C60-110B-4432-9B39-25BFEB1BA97D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/mis_sample/mis_sample.vcxproj">
+      <Project>5369FCC1-CBE2-4C28-8262-4E01BCB6AAEE</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/namespaces/namespaces.vcxproj">
+      <Project>D9CEF6D9-A23D-45B1-A3CB-D9665AB66FE0</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/nvcommon/nvCommon.vcxproj">
+      <Project>BA89D419-5BF7-4D09-86CE-7916569ED454</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/nvcommon/nvModel/nvModel.vcxproj">
+      <Project>9783D9AB-C219-4D85-B506-5052DDF21AD9</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/ocean/ocean.vcxproj">
+      <Project>5981BDD3-38F4-4182-933A-4D730CA47026</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/path_tracer/path_tracer.vcxproj">
+      <Project>94113EA2-73E1-4523-856E-679D4D0FF01D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/procedural/procedural.vcxproj">
+      <Project>E0C5294E-95C5-479C-9963-F4C9E9D7A198</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/progressivePhotonMap/progressivePhotonMap.vcxproj">
+      <Project>0A696D94-8A8C-4019-AA8E-8A29E56081F8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/rayDifferentials/rayDifferentials.vcxproj">
+      <Project>11940A48-EFE0-49CD-9996-55CE6FB47248</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/sample1/sample1.vcxproj">
+      <Project>035616E7-A77F-4477-ACF2-689213E6F396</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/sample2/sample2.vcxproj">
+      <Project>9BEE76E7-886B-4834-8C7A-BECF0B6DD8B9</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/sample3/sample3.vcxproj">
+      <Project>4B2913E8-AE0B-484F-B694-923FC341C6B0</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/sample4/sample4.vcxproj">
+      <Project>79304459-F588-4555-9675-1A36E471D481</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/sample5/sample5.vcxproj">
+      <Project>8593E5E9-78BD-43BE-9A4B-ECAB9B90F1C5</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/sample5pp/sample5pp.vcxproj">
+      <Project>8F7B3F1D-ED84-44CA-A8DC-A63F8CB574E5</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/sample6/sample6.vcxproj">
+      <Project>157DE1EA-1713-49E8-8791-6ED6785B4882</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/sample7/sample7.vcxproj">
+      <Project>9889E3C3-6E69-48F0-B97E-751CA4D9A2D8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/sample8/sample8.vcxproj">
+      <Project>23D4C624-5722-4860-8476-9838BC4A69BE</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/shadeTree/shadeTree.vcxproj">
+      <Project>8650EA0C-77D5-42ED-940D-EAF2538E2019</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/simpleAnimation/simpleAnimation.vcxproj">
+      <Project>02D76D67-2C86-42DE-BC81-58E0E670FF70</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/simpleGLTexInterop/simpleGLTexInterop.vcxproj">
+      <Project>AD6ADC4F-676F-4C13-AE40-3E62A1810AAD</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/sutil/sutil.vcxproj">
+      <Project>9657F170-425A-405E-84EB-3F43E78F2B19</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/swimmingShark/swimmingShark.vcxproj">
+      <Project>7213E418-62C7-4CB3-9FEE-0F9EA51AA8C1</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/transparency/transparency.vcxproj">
+      <Project>D84D40F0-CEAD-4E9B-88F0-975593F98DBF</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/traversal/traversal.vcxproj">
+      <Project>E4AC4DFA-E84C-4237-BD4A-0B35408ECB28</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/tutorial/tutorial.vcxproj">
+      <Project>E4A97310-26C9-43C2-9043-F43A2A5774CE</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/whirligig/whirligig.vcxproj">
+      <Project>1A1B6D11-BDF7-4ED7-A983-0B5FF65C215D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Program Files (x86)/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/builder2/whitted/whitted.vcxproj">
+      <Project>CABB42AD-0E30-4133-87D4-7A4DB2408736</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

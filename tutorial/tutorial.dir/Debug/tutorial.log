@@ -1,0 +1,18 @@
+﻿Build started 12/3/2013 1:54:43 PM.
+     1>Project "C:\Program Files (x86)\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\builder2 - Copy\tutorial\tutorial.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "tutorial.dir\Debug\GraphicsFinal.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "tutorial.dir\Debug\GraphicsFinal.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building NVCC ptx file lib/ptx/tutorial_generated_tutorial0.cu.ptx
+         Building NVCC ptx file lib/ptx/tutorial_generated_tutorial1.cu.ptx
+         Building NVCC ptx file lib/ptx/tutorial_generated_tutorial2.cu.ptx
+         Building NVCC ptx file lib/ptx/tutorial_generated_tutorial3.cu.ptx
+         Building NVCC ptx file lib/ptx/tutorial_generated_tutorial4.cu.ptx
+         Building NVCC ptx file lib/ptx/tutorial_generated_tutorial5.cu.ptx
+         Building NVCC ptx file lib/ptx/tutorial_generated_tutorial6.cu.ptx
+         Building NVCC ptx file lib/ptx/tutorial_generated_tutorial7.cu.ptx
+         Building NVCC ptx file lib/ptx/tutorial_generated_tutorial8.cu.ptx
+         Building NVCC ptx file lib/ptx/tutorial_generated_tutorial9.cu.ptx
+         Building NVCC ptx file lib/ptx/tutorial_generated_tutorial10.cu.ptx

@@ -1,0 +1,34 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{2DA46D5D-AF68-4E44-BE5F-2D1D94DE1AE9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E4A97310-26C9-43C2-9043-F43A2A5774CE} = {E4A97310-26C9-43C2-9043-F43A2A5774CE}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GraphicsFinal", "tutorial\tutorial.vcxproj", "{E4A97310-26C9-43C2-9043-F43A2A5774CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		MinSizeRel|Win32 = MinSizeRel|Win32
+		Release|Win32 = Release|Win32
+		RelWithDebInfo|Win32 = RelWithDebInfo|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DA46D5D-AF68-4E44-BE5F-2D1D94DE1AE9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2DA46D5D-AF68-4E44-BE5F-2D1D94DE1AE9}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
+		{2DA46D5D-AF68-4E44-BE5F-2D1D94DE1AE9}.Release|Win32.ActiveCfg = Release|Win32
+		{2DA46D5D-AF68-4E44-BE5F-2D1D94DE1AE9}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{E4A97310-26C9-43C2-9043-F43A2A5774CE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E4A97310-26C9-43C2-9043-F43A2A5774CE}.Debug|Win32.Build.0 = Debug|Win32
+		{E4A97310-26C9-43C2-9043-F43A2A5774CE}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
+		{E4A97310-26C9-43C2-9043-F43A2A5774CE}.MinSizeRel|Win32.Build.0 = MinSizeRel|Win32
+		{E4A97310-26C9-43C2-9043-F43A2A5774CE}.Release|Win32.ActiveCfg = Release|Win32
+		{E4A97310-26C9-43C2-9043-F43A2A5774CE}.Release|Win32.Build.0 = Release|Win32
+		{E4A97310-26C9-43C2-9043-F43A2A5774CE}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{E4A97310-26C9-43C2-9043-F43A2A5774CE}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

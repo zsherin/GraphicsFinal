@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\tutorial\tutorial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\tutorial\tutorial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tutorial\commonStructs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\tutorial\tutorial0.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\tutorial\tutorial1.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\tutorial\tutorial2.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\tutorial\tutorial3.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\tutorial\tutorial4.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\tutorial\tutorial5.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\tutorial\tutorial6.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\tutorial\tutorial7.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\tutorial\tutorial8.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\tutorial\tutorial9.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\tutorial\tutorial10.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\tutorial\tutorial11.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\tutorial\box.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\tutorial\parallelogram.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\tutorial\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\lib\ptx\tutorial_generated_tutorial0.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="..\lib\ptx\tutorial_generated_tutorial1.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="..\lib\ptx\tutorial_generated_tutorial2.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="..\lib\ptx\tutorial_generated_tutorial3.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="..\lib\ptx\tutorial_generated_tutorial4.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="..\lib\ptx\tutorial_generated_tutorial5.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="..\lib\ptx\tutorial_generated_tutorial6.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="..\lib\ptx\tutorial_generated_tutorial7.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="..\lib\ptx\tutorial_generated_tutorial8.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="..\lib\ptx\tutorial_generated_tutorial9.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="..\lib\ptx\tutorial_generated_tutorial10.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="..\lib\ptx\tutorial_generated_tutorial11.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="..\lib\ptx\tutorial_generated_box.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="..\lib\ptx\tutorial_generated_parallelogram.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5A5A5D06-B0BB-431B-9E78-03B0CF27F6EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7136C392-E88A-4447-94E9-4FDC0621C2C2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PTX Files">
+      <UniqueIdentifier>{6F48EAD4-6408-446A-848D-D4D1B9685C8C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDA Files">
+      <UniqueIdentifier>{4C13E28E-37A6-4B1F-A4AE-D4AFE7777558}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
